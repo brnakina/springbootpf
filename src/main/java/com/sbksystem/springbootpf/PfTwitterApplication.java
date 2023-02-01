@@ -1,4 +1,4 @@
-package com.sbksystem.PFTwitter;
+package com.sbksystem.springbootpf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

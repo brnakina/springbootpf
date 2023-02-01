@@ -1,4 +1,4 @@
-package com.sbksystem.PFTwitter.service;
+package com.sbksystem.springbootpf.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,12 +6,12 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sbksystem.PFTwitter.entity.User;
-import com.sbksystem.PFTwitter.repository.UserRepository;
+import com.sbksystem.springbootpf.entity.User;
+import com.sbksystem.springbootpf.repository.UserRepository;
 
 // Serviceクラスとしての振舞いを定義するアノテーション。DI対象となる条件の@Componentアノテーションの振舞いを内包している
 @Service
-public class UserService {
+public class TweetService {
 
 	
 	@Autowired

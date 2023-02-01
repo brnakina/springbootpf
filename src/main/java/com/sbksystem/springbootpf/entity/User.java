@@ -1,4 +1,4 @@
-package com.sbksystem.PFTwitter.entity;
+package com.sbksystem.springbootpf.entity;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.sbksystem.PFTwitter.controller;
+package com.sbksystem.springbootpf.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sbksystem.PFTwitter.entity.User;
-import com.sbksystem.PFTwitter.service.UserService;
+import com.sbksystem.springbootpf.entity.User;
+import com.sbksystem.springbootpf.service.UserService;
 
 // RestControllerアノテーション内のclassでオブジェクトをReturnするとHTTPレスポンスとしてJSONが返る
 @RestController

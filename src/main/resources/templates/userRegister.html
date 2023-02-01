@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<form action="#" th:action="@{/users/register}" th:object="${user}" method="post">
+			<table>
+				<tr>
+					<td>
+						<input type="text" th:field="*{code}" placeholder="Code" required="required"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" th:field="*{name}" placeholder="Name" required="required"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="password" th:field="*{password}" placeholder="Password" required="required"/>
+					</td>
+				</tr>
+			</table>
+		    <button type="submit">Register</button>
+		</form>
+	</body>
+</html>
